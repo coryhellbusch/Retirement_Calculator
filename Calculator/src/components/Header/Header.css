@@ -1,0 +1,11 @@
+.header {
+    background-color: #586358;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}

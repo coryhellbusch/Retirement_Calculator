@@ -1,0 +1,95 @@
+.calculator {
+    padding: 50px;
+}
+
+.calc-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: solid 3px;
+    border-color: white;
+    border-radius: 25px;
+    background-color: #c8e3c9;
+}
+
+.calc-form * {
+    
+    font-size: x-large;
+}
+
+td {
+    padding:10px;
+}
+
+.calc-form input {
+    border-radius: 5px;
+}
+
+.calc-form button {
+    align-self: center;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+}
+
+.accounts td:first-child {
+    padding-left: 3%;
+}
+
+.calc-form button:hover {
+    border: solid 3px;
+    margin: 8.5px;
+}
+
+.retireValue {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    border: solid 3px;
+    border-color: white;
+    border-radius: 25px;
+    background-color: #c8e3c9;
+    font-size: x-large;
+}
+
+.retireValue td {
+    padding-left: 30px;
+}
+
+.dollarAmounts {
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.retireValue p {
+    margin: 5px;
+}
+
+h2 {
+    margin: 10px 0px;
+}
+
+label {
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+td:first-child {
+    width: 50%;
+    text-align: left;
+}
+
+td:last-child {
+    width: 50%;
+    text-align: left;
+}
+
+#check {
+    transform: scale(2);
+}
